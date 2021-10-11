@@ -26,9 +26,9 @@ jQueryを使用してconfirm.phpから修正ボタンの場合にはaction属性
 送信ボタンの場合はaction属性をcomplete.phpにしてsubmitできるようにした。
 ```
 $('.btn').click(function() {
-            $(this).parents('form').attr('action', $(this).data('action'));
-            $(this).parents('form').submit();
-            });
+  $(this).parents('form').attr('action', $(this).data('action'));
+  $(this).parents('form').submit();
+});
 ```
 ・電話番号はハイフンなし、半角数字で統一したかったためconfirm.phpで整形。
 ```
