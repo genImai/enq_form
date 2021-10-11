@@ -64,5 +64,8 @@ $stmt->execute();
 // DB接続を閉じる
 $pdo = null;
 //メール送信
-mb_send_mail($to, $subject, $body, $header);
+mb_send_mail($to1, $subject1, $body1, $header1);
+mb_send_mail($to2, $subject2, $body2, $header2);
+
+
 ?>

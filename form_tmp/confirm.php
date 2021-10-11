@@ -45,9 +45,10 @@
                         <th>電話番号</th>
                         <td>
                             <?php 
-                                $numCheck = mb_convert_kana($_POST['number'], 'n', 'UTF-8'); 
-                                $numCheck = str_replace('-','',$numCheck);
-                                echo $numCheck;
+                                $numChecked = mb_convert_kana($_POST['number'], 'n', 'UTF-8'); 
+                                $numChecked = str_replace('-','',$numChecked);
+                                $_POST['number'] = $numChecked;
+                                echo $_POST['number'];
                             ?>
                         </td>
                         <input type="hidden" name="number" value="<?php echo $_POST['number'] ?>">
