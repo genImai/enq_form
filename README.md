@@ -8,7 +8,7 @@ macOS BigSur
 PHP7.3    
 Bootstrap5  
 MySQL  
-さくらレンタルサーバ  
+さくらのレンタルサーバ  
   
   
 ### 制作期間  
