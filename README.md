@@ -5,7 +5,7 @@ DB登録、メール送信機能があります。
   
 ### 開発環境  
 macOS BigSur   
-PHP7    
+PHP7.3    
 Bootstrap5  
 MySQL  
 さくらレンタルサーバー  
