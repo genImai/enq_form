@@ -9,9 +9,9 @@ mb_language("Japanese");
 mb_internal_encoding("UTF-8");
 
 $email = "enq_form.sakuraweb@gen-imai.sakura.ne.jp"; //送信元
-$subject = "【enqform】お問合せ完了のお知らせ"; // 題名 
+$subject = "【enqform】お問合せ完了の通知"; // 題名 
 $body = "お問い合わせいただきありがとうございます。\n" // 本文
-        ."以下の内容でBDに登録しました。\n"
+        ."以下の内容で送信いたしました。\n"
         ."ーーーーーーーーーーーーーーーーーーーーーー\n"
         ."件名:{$type}\n"
         ."名前:{$name}\n"
